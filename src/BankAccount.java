@@ -7,7 +7,7 @@ public class BankAccount {
 
     /**
      * Allows an arbitrary double to be added to the balance instance variable.
-     * @param amount The amount to be deposited.
+     * @param amount The amount to be added.
      */
     public void deposit(double amount) {
         if (amount > 0) {
@@ -34,8 +34,8 @@ public class BankAccount {
     }
 
     /**
-     * Sets user's overdraft amount.
-     * @param amount The desired amount as a double.
+     * Sets a user's overdraft amount.
+     * @param amount The desired overdraft amount as a double.
      */
     public void setOverdraftAmount(double amount) {
         this.overdraftAmount = amount;
