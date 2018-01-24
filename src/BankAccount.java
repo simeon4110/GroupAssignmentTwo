@@ -7,7 +7,6 @@ public class BankAccount {
 
     /**
      * Allows an arbitrary double to be added to the balance instance variable.
-     *
      * @param amount The amount to be deposited.
      */
     public void deposit(double amount) {
@@ -17,7 +16,7 @@ public class BankAccount {
     }
 
     /**
-     * Verifies withdrawls against the user's available balance + overdraftAmount.
+     * Verifies withdraws against the user's available balance + overdraftAmount.
      * @param amount The amount to withdraw.
      */
     public void withdraw(double amount) {
