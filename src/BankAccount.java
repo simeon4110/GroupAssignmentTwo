@@ -30,7 +30,7 @@ public class BankAccount {
      * @return The user's balance as a double.
      */
     public double getBalance() {
-        return balance;
+        return this.balance;
     }
 
     /**
