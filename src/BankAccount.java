@@ -2,11 +2,11 @@ public class BankAccount {
     double balance;
     double overdraftAmount = 100;
 
-    private void deposit(double amount) {
+    public void deposit(double amount) {
 
     }
 
-    private void withdrawl(double amount) {
+    public void withdraw(double amount) {
 
     }
 
