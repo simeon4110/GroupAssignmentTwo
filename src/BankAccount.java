@@ -40,10 +40,6 @@ public class BankAccount {
     public void setOverdraftAmount(double amount) {
         this.overdraftAmount = amount;
 
-        if (this.overdraftAmount - amount < 0) {
-            this.overdraftAmount = 0.0;
-        }
-
     }
 
 }
